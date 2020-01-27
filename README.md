@@ -15,6 +15,7 @@ $ ansible --version
 
 ```bash
 $ brew install ansible
+$ ansible --version
 ```
 
 ## Dry-Run
