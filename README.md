@@ -1,6 +1,6 @@
 # Ansible Practice
 
-![ansible_logo](https://user-images.githubusercontent.com/16132069/73150741-20dcac00-410b-11ea-9b42-c08d3229fc5c.png)
+![ansible_logo_big](https://user-images.githubusercontent.com/16132069/73150820-a19ba800-410b-11ea-8be4-ff4a62cc5b96.png)
 
 ## Install ansible command
 
