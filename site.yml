@@ -1,0 +1,4 @@
+---
+
+# import service specific playbooks
+- import_playbook: ./all.yml
