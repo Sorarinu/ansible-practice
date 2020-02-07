@@ -5,3 +5,4 @@
   become_user: root
   roles:
     - { role: hello, tags: hello }
+    - { role: fortune, tags: fortune }

@@ -1,0 +1,17 @@
+---
+
+- name: install fortune-mod
+  yum:
+    name: fortune-mod
+    state: present
+
+- name: execute fortune
+  shell: fortune
+  register: return_from_shell
+  changed_when: no
+  ignore_errors: True
+
+- name: show previous shell stdout
+  debug:
+    msg: "{{ return_from_shell.stdout_lines }}"
+  ignore_errors: True
