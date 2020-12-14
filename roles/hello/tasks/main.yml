@@ -1,5 +1,6 @@
 ---
 
+# see: https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html
 - name: put hello text file
   template:
     src: hello.txt.j2
